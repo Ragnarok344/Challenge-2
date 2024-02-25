@@ -1,14 +1,15 @@
 * {
     box-sizing: border-box;
+    text-decoration: black;
   }
   
   /* color  */
   :root {
     --primary: rgb(25, 27, 28);
-    --secondary: rgb(87, 188, 156);
-    --medium: rgb(71, 126, 107);
+    --secondary: rgb(231 23 23);
+    --medium: rgb(25 25 28);
     --dark: rgb(222, 232, 223);
-    --light: rgb(12, 218, 149);
+    --light: rgb(54 212 219);
   }
   
   body {
@@ -90,8 +91,8 @@
   }
   
   .hero-banner {
-    background: rgb(77, 192, 140);
-    background-image: url(""), linear-gradient(170deg, var(--secondary) 0%, var(--primary) 100%);
+    background: rgb(72 188 215);
+    background-image: url("images/hero-banner.jpeg"), linear-gradient(170deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -109,8 +110,8 @@
   }
   
   .hero-banner h2 {
-    background-color: var(--secondary);
-    color: var(--medium);
+    
+    color: black;
     margin: 0;
     padding: 5px 10px;
     font-size: 2.3rem;
@@ -229,7 +230,7 @@
   .project-2 {
     background-image: url("images/project2.png");
   }
-  
+
   @media screen and (max-width: 980px) {
     header {
       padding: 0 0 10px 0;
