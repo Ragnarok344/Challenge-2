@@ -224,10 +224,10 @@
   
   /* project images */
   .project-1 {
-    background-image: url("/images/project1.jpg");
+    background-image: url("images/project1.jpeg" );
   }
   .project-2 {
-    background-image: url(https://ibb.co/Nt7g8yJ);
+    background-image: url("images/project2.png");
   }
   
   @media screen and (max-width: 980px) {
