@@ -177,8 +177,8 @@
   
   /* first portfolio item */
   .flex-item:first-child {
-      min-height: 400px;
-      flex-basis: 100%;
+      min-height: 300px;
+      flex-basis: 150%;
   }
   
   .flex-item:hover {
@@ -224,7 +224,10 @@
   
   /* project images */
   .project-1 {
-    background-image: url("/images/project-1.png");
+    background-image: url("/images/project1.jpg");
+  }
+  .project-2 {
+    background-image: url(https://ibb.co/Nt7g8yJ);
   }
   
   @media screen and (max-width: 980px) {
